@@ -3,3 +3,8 @@ article#random p {
     text-align: center;
     color: var(--pico-primary);
 }
+
+article#pageNotFound {
+    display: flex;
+    justify-content: center;
+}

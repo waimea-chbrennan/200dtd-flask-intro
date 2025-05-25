@@ -1,0 +1,18 @@
+{% extends "pages/base.jinja" %}
+
+
+{% block title %}
+    Data from Form
+{% endblock %}
+
+{% block content %}
+
+
+    <h1>Wow! Here is your personal data. Someone could have used that yk</h1>
+    <h2>You entered the following data...</h2>
+
+    <article>
+        <h3>Name: {{name}}</h3>
+        <h3>Age: {{age}}</h3>
+    </article>
+{% endblock %}
